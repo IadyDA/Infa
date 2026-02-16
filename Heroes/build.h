@@ -14,8 +14,13 @@ protected:
 public:
     buildings ()
     {
+        gold = 0;
+        stone = 0;
+        wood = 0;
         cout << "building created" << endl;
     }
+
+    virtual ~buildings() {};
 
     int get_gold()
     {
